@@ -1,3 +1,8 @@
+#body
+{	
+background-color: #747B78;
+}
+
 #container
 {
 	margin: 0 30px;
@@ -6,8 +11,22 @@
 
 #header
 {
-	background: #ccc;
+	clear: left;
 	padding: 20px;
+	margin: 20px;
+	-webkit-border-radius: 18px;
+	border-radius: 18px;
+	-webkit-box-shadow: 0px 0px 6px #39E798;
+	box-shadow: 0px 0px 6px #39E798;
+	background-image: -webkit-gradient(linear, left top, right top, from(#A5ADA9), to(#A5ADA9));
+	background-image: -webkit-linear-gradient(left, #A5ADA9, #A5ADA9);
+	background-image: linear-gradient(left, #A5ADA9, #A5ADA9);
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	opacity: 0.83;
+	background: #;
+	padding: 20px;
+	background-color: #A5ADA9;
 }
 
 #header h1 { margin: 0; }
@@ -16,7 +35,7 @@
 {
 	float: left;
 	width: 100%;
-	background: #333;
+	background: #A5ADA9;
 }
 
 #navigation ul
@@ -58,6 +77,7 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+	background-color: #A5ADA9;
 }
 
 #edito h2
@@ -65,6 +85,7 @@
 	color: #000;
 	font-size: 160%;
 	margin: 0 0 .5em;
+	background-color: #A5ADA9;
 }
 
 #news
@@ -83,6 +104,7 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+	background-color: #A5ADA9;
 }
 
 #footer
